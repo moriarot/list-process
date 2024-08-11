@@ -5,9 +5,9 @@
 כרגע הפרוייקט הזה מריץ מסך של הוספת תהליך
 
 להרצת הפרוייקט:
- git clone https://github.com/moriarot/mark-pdf.git
+ git clone https://github.com/moriarot/list-process.git
 
- cd mark-pdf
+ cd list-process
 
  npm run dev
 
