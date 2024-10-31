@@ -65,7 +65,7 @@ function AddProcessModal({companyId}) {
     <div className="modal-overlay">
       <div className="modal">
         {!processId ? <form>
-          <label>הכנס שם לתהליך</label>
+          <label>הכנס שם למעטפית</label>
           <input
             type='text'
             name='name'
@@ -74,11 +74,11 @@ function AddProcessModal({companyId}) {
           />
           <div className='modal_button'>
             <button onClick={closeModalAddProcess} className='cansel_button'>ביטול</button>
-            <button onClick={createProcess} className='action_button'>צור תהליך חדש</button>
+            <button onClick={createProcess} className='action_button'>צור מעטפית חדשה</button>
           </div>
         </form>: 
         <div>
-            <div>התהליך נוצר בהצלחה</div>
+            <div>המעטפית נוצרה בהצלחה</div>
             <button onClick={moveEditProcess}>עבור לעריכה</button>
         </div>
         }

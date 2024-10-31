@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-    {companyId && <AddProcessModal companyId={companyId}/>}
+    {companyId ? <AddProcessModal companyId={companyId}/> : <>404 not found</>}
     </>
   )
 }
