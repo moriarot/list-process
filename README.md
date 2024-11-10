@@ -18,6 +18,7 @@ React + Vite
 
 מריצים: 
 npm run build
+
 zip -r name_version.zip ./dist
 
 להכנס למיקום:
