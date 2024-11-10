@@ -22,5 +22,5 @@ npm run build
 zip -r name_version.zip ./dist
 
 להכנס למיקום:
-/home/takco/public_html/td/create_new_process/dist
+/home/takco/public_html/td/create_new_process
 שם להעלות את הקובץ ולעשות לו extract
